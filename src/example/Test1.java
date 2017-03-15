@@ -10,5 +10,4 @@ public class Test1 {
 	public void testA(){
 		Reporter.log("This is test 1",true);
 	}
-
 }
