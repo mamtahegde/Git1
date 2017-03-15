@@ -8,7 +8,7 @@ public class Test1 {
 
 	@Test
 	public void testA(){
-		Reporter.log("This is test1",true);
+		Reporter.log("This is test 1",true);
 	}
 
 }
