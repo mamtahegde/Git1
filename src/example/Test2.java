@@ -1,10 +1,12 @@
 package example;
 
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
 public class Test2 {
 
-	public static void main(String[] args) {
-		
-		System.out.println("This is test 2");
-		
+	@Test
+	public void testB(){
+		Reporter.log("This is test 2",true);
 	}
 }
